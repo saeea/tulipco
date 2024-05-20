@@ -1,0 +1,180 @@
+body {
+ font-family: "Ysabeau Office";
+ background-color: #331122;
+ }
+a {
+ text-decoration: none;
+ padding: 0px;
+ border-bottom: solid 1px #331122;
+ color: #440033;
+ transition: 0.3s color ease;
+ }
+a:hover {
+ border-bottom: solid 2px #442233;
+ }
+.a-logo {
+ color: #000000;
+ border-bottom: 0px;
+ transition: 0.3s color ease;
+ z-index: 99;
+ }
+.a-logo:hover {
+ color: #551144;
+ border-bottom: 0px;
+ }
+.a-text {
+ color: inherit;
+ border-bottom: solid 1px #ffeeee;
+ }
+.a-text:hover {
+ border-bottom: solid 2px #ffeeee;
+ }
+.abouter {
+ color: #ffddee;
+ padding: calc(0.5vw + 10px);
+ margin: calc(1vw + 10px) calc(3vw + 10px);
+ font-weight: 300;
+ font-size: 1.1em;
+ background-image: linear-gradient(90deg, #551133, #552244);
+ }
+.sidepan-wrap {
+ position: sticky;
+ float: left;
+ z-index: 1;
+ user-select: none;
+ }
+.sidepan {
+ width: calc(120px + 11.2vw);
+ background-image: linear-gradient(90deg, #995544, #aa4422);
+ font-weight: 500;
+ font-size: calc(10px + 2vw);
+ padding: calc(9px + 0.8vw);
+ line-height: 1.05em;
+ display: table;
+ margin: 0.1vw;
+ }
+.general-content {
+ display: flex;
+ flex-wrap: wrap;
+ font-size: calc(8px + 1.8vw);
+ position: relative;
+ }
+.text-sizer {
+ font-size: 1.2em;
+ line-height: 1.3em;
+ }
+.text-desizer {
+ font-size: 0.6em;
+ line-height: 0.9em;
+ }
+.base-element {
+ display: table;
+ float: left;
+ padding: calc(0.4vw + 10px);
+ margin: calc(0.3vw + 5px);
+ background-color: #551122;
+ color: #ffeefe;
+ position: relative;
+ left: calc(1vw + 10px);
+ font-weight: 600;
+ font-size: 1.1em;
+ }
+.catalogue-element {
+ display: table;
+ float: left;
+ padding: calc(0.4vw + 10px);
+ margin: calc(0.3vw + 5px);
+ width: calc(165px + 7vw);
+ background-color: #551122;
+ color: #ffeefe;
+ position: relative;
+ left: calc(1vw + 10px);
+ font-weight: 600;
+ font-size: 1.1em;
+ }
+.catalogue-photo {
+ width: calc(150px + 6vw);
+ margin: calc(0.2vw + 5px);
+ }
+.cornerpic {
+ float: right;
+ height: calc(175px + 1vw);
+ }
+#red_greigii, #red_white_greigii, #yellow_batalinii, #white_batalinii, #red_batalinii, #white_clusiana, #yellow_clusiana, #white_triumph, #red_triumph, #pink_triumph, #yellow_triumph, #arrower, #id1, #id2, #id3, #id4, #id5 {
+ display: none;
+ }
+input[type="radio"] {
+ user-select: none;
+ display: none;
+ }
+input[id="number"] {
+ width: 2em;
+ background-color: #662233;
+ color: #ffeeee;
+ }
+input[id="color"] {
+ width: 5em;
+ background-color: #662233;
+ color: #ffeeee;
+ }
+input[type="radio"]:checked+label {
+ color: #aa5533;
+ }
+input[id="red_greigii"]:checked ~ #red_greigii {
+ display: block;
+ }
+input[id="red_white_greigii"]:checked ~ #red_white_greigii {
+ display: block;
+ }
+input[id="yellow_batalinii"]:checked ~ #yellow_batalinii {
+ display: block;
+ }
+input[id="white_batalinii"]:checked ~ #white_batalinii {
+ display: block;
+ }
+input[id="red_batalinii"]:checked ~ #red_batalinii {
+ display: block;
+ }
+input[id="yellow_clusiana"]:checked ~ #yellow_clusiana {
+ display: block;
+ }
+input[id="white_clusiana"]:checked ~ #white_clusiana {
+ display: block;
+ }
+input[id="white_triumph"]:checked ~ #white_triumph {
+ display: block;
+ }
+input[id="pink_triumph"]:checked ~ #pink_triumph {
+ display: block;
+ }
+input[id="red_triumph"]:checked ~ #red_triumph {
+ display: block;
+ }
+input[id="yellow_triumph"]:checked ~ #yellow_triumph {
+ display: block;
+ }
+input[id="arrow"]:checked ~ #arrower {
+ display: block;
+ }
+input[id="1"]:checked ~ #id1 {
+ display: block;
+ }
+input[id="2"]:checked ~ #id2 {
+ display: block;
+ }
+input[id="3"]:checked ~ #id3 {
+ display: block;
+ }
+input[id="4"]:checked ~ #id4 {
+ display: block;
+ }
+input[id="5"]:checked ~ #id5 {
+ display: block;
+ }
+.label {
+ background-color: #a42233;
+ color: #ffeeee;
+ display: table;
+ float: left;
+ user-select: none;
+ }
